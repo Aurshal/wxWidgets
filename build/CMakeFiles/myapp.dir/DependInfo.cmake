@@ -9,6 +9,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/kushal/Desktop/wxwidgets/main.cpp" "CMakeFiles/myapp.dir/main.cpp.o" "gcc" "CMakeFiles/myapp.dir/main.cpp.o.d"
+  "/home/kushal/Desktop/wxwidgets/src/button.cpp" "CMakeFiles/myapp.dir/src/button.cpp.o" "gcc" "CMakeFiles/myapp.dir/src/button.cpp.o.d"
   "/home/kushal/Desktop/wxwidgets/src/icon.cpp" "CMakeFiles/myapp.dir/src/icon.cpp.o" "gcc" "CMakeFiles/myapp.dir/src/icon.cpp.o.d"
   "/home/kushal/Desktop/wxwidgets/src/simple.cpp" "CMakeFiles/myapp.dir/src/simple.cpp.o" "gcc" "CMakeFiles/myapp.dir/src/simple.cpp.o.d"
   )

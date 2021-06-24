@@ -153,6 +153,30 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/myapp.dir/build.make CMakeFiles/myapp.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+src/button.o: src/button.cpp.o
+.PHONY : src/button.o
+
+# target to build an object file
+src/button.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/myapp.dir/build.make CMakeFiles/myapp.dir/src/button.cpp.o
+.PHONY : src/button.cpp.o
+
+src/button.i: src/button.cpp.i
+.PHONY : src/button.i
+
+# target to preprocess a source file
+src/button.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/myapp.dir/build.make CMakeFiles/myapp.dir/src/button.cpp.i
+.PHONY : src/button.cpp.i
+
+src/button.s: src/button.cpp.s
+.PHONY : src/button.s
+
+# target to generate assembly for a file
+src/button.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/myapp.dir/build.make CMakeFiles/myapp.dir/src/button.cpp.s
+.PHONY : src/button.cpp.s
+
 src/icon.o: src/icon.cpp.o
 .PHONY : src/icon.o
 
@@ -213,6 +237,9 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... src/button.o"
+	@echo "... src/button.i"
+	@echo "... src/button.s"
 	@echo "... src/icon.o"
 	@echo "... src/icon.i"
 	@echo "... src/icon.s"
