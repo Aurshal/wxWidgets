@@ -1,1 +1,5 @@
-This is the read me file
+mkdir build
+cd build
+cmake ../
+make 
+./myapp
