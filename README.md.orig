@@ -4,5 +4,8 @@ cmake ../
 make 
 ./myapp
 i am creating merge conflict
-fuck u
+<<<<<<< HEAD
 again adding the problem
+=======
+fuck u
+>>>>>>> alt
