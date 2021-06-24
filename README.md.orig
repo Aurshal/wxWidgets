@@ -3,5 +3,8 @@ cd build
 cmake ../
 make 
 ./myapp
+<<<<<<< HEAD
+again adding the problem
+=======
 i am creating merge conflict
-fuck u
+>>>>>>> alt
