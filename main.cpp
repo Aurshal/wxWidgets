@@ -1,15 +1,11 @@
 #include "main.h"
-// #include "simple.h"
-#include "icon.h"
-#include "button.h"
+#include "communicate.h"
 
 IMPLEMENT_APP(MyApp)
 
 bool MyApp::OnInit(){
-    // Icon *icon = new Icon(wxT("Icon"));
-    // icon->Show(true);
+    Communicate *communicate = new Communicate(wxT("Widgets communicate"));
+    communicate->Show(true);
 
-    Button *btnapp = new Button(wxT("Button"));
-    btnapp->Show(true);
     return true;
 }

@@ -10,7 +10,9 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/kushal/Desktop/wxwidgets/main.cpp" "CMakeFiles/myapp.dir/main.cpp.o" "gcc" "CMakeFiles/myapp.dir/main.cpp.o.d"
   "/home/kushal/Desktop/wxwidgets/src/button.cpp" "CMakeFiles/myapp.dir/src/button.cpp.o" "gcc" "CMakeFiles/myapp.dir/src/button.cpp.o.d"
+  "/home/kushal/Desktop/wxwidgets/src/communicate.cpp" "CMakeFiles/myapp.dir/src/communicate.cpp.o" "gcc" "CMakeFiles/myapp.dir/src/communicate.cpp.o.d"
   "/home/kushal/Desktop/wxwidgets/src/icon.cpp" "CMakeFiles/myapp.dir/src/icon.cpp.o" "gcc" "CMakeFiles/myapp.dir/src/icon.cpp.o.d"
+  "/home/kushal/Desktop/wxwidgets/src/panels.cpp" "CMakeFiles/myapp.dir/src/panels.cpp.o" "gcc" "CMakeFiles/myapp.dir/src/panels.cpp.o.d"
   "/home/kushal/Desktop/wxwidgets/src/simple.cpp" "CMakeFiles/myapp.dir/src/simple.cpp.o" "gcc" "CMakeFiles/myapp.dir/src/simple.cpp.o.d"
   )
 

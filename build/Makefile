@@ -177,6 +177,30 @@ src/button.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/myapp.dir/build.make CMakeFiles/myapp.dir/src/button.cpp.s
 .PHONY : src/button.cpp.s
 
+src/communicate.o: src/communicate.cpp.o
+.PHONY : src/communicate.o
+
+# target to build an object file
+src/communicate.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/myapp.dir/build.make CMakeFiles/myapp.dir/src/communicate.cpp.o
+.PHONY : src/communicate.cpp.o
+
+src/communicate.i: src/communicate.cpp.i
+.PHONY : src/communicate.i
+
+# target to preprocess a source file
+src/communicate.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/myapp.dir/build.make CMakeFiles/myapp.dir/src/communicate.cpp.i
+.PHONY : src/communicate.cpp.i
+
+src/communicate.s: src/communicate.cpp.s
+.PHONY : src/communicate.s
+
+# target to generate assembly for a file
+src/communicate.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/myapp.dir/build.make CMakeFiles/myapp.dir/src/communicate.cpp.s
+.PHONY : src/communicate.cpp.s
+
 src/icon.o: src/icon.cpp.o
 .PHONY : src/icon.o
 
@@ -200,6 +224,30 @@ src/icon.s: src/icon.cpp.s
 src/icon.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/myapp.dir/build.make CMakeFiles/myapp.dir/src/icon.cpp.s
 .PHONY : src/icon.cpp.s
+
+src/panels.o: src/panels.cpp.o
+.PHONY : src/panels.o
+
+# target to build an object file
+src/panels.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/myapp.dir/build.make CMakeFiles/myapp.dir/src/panels.cpp.o
+.PHONY : src/panels.cpp.o
+
+src/panels.i: src/panels.cpp.i
+.PHONY : src/panels.i
+
+# target to preprocess a source file
+src/panels.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/myapp.dir/build.make CMakeFiles/myapp.dir/src/panels.cpp.i
+.PHONY : src/panels.cpp.i
+
+src/panels.s: src/panels.cpp.s
+.PHONY : src/panels.s
+
+# target to generate assembly for a file
+src/panels.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/myapp.dir/build.make CMakeFiles/myapp.dir/src/panels.cpp.s
+.PHONY : src/panels.cpp.s
 
 src/simple.o: src/simple.cpp.o
 .PHONY : src/simple.o
@@ -240,9 +288,15 @@ help:
 	@echo "... src/button.o"
 	@echo "... src/button.i"
 	@echo "... src/button.s"
+	@echo "... src/communicate.o"
+	@echo "... src/communicate.i"
+	@echo "... src/communicate.s"
 	@echo "... src/icon.o"
 	@echo "... src/icon.i"
 	@echo "... src/icon.s"
+	@echo "... src/panels.o"
+	@echo "... src/panels.i"
+	@echo "... src/panels.s"
 	@echo "... src/simple.o"
 	@echo "... src/simple.i"
 	@echo "... src/simple.s"

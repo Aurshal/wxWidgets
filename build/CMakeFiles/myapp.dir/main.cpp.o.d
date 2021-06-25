@@ -427,5 +427,6 @@ CMakeFiles/myapp.dir/main.cpp.o: /home/kushal/Desktop/wxwidgets/main.cpp \
  /usr/local/include/wx-3.1/wx/filectrl.h \
  /usr/local/include/wx-3.1/wx/mdi.h \
  /usr/local/include/wx-3.1/wx/gtk/mdi.h \
- /home/kushal/Desktop/wxwidgets/include/icon.h \
- /home/kushal/Desktop/wxwidgets/include/button.h
+ /home/kushal/Desktop/wxwidgets/include/communicate.h \
+ /home/kushal/Desktop/wxwidgets/include/panels.h \
+ /usr/local/include/wx-3.1/wx/wxprec.h

@@ -7,7 +7,7 @@ Button::Button (const wxString& title):wxFrame(NULL, wxID_ANY, title, wxDefaultP
     Connect(wxID_EXIT, wxEVT_COMMAND_BUTTON_CLICKED,
             wxCommandEventHandler(Button::OnQuit));
 
-    // button->SetFocus();
+    button->SetFocus();
     Center();
 }
 
