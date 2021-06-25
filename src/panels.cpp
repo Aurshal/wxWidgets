@@ -2,7 +2,7 @@
 #include "communicate.h"
 
 LeftPanel::LeftPanel(wxPanel * parent)
-       : wxPanel(parent, -1, wxPoint(-1, -1), wxSize(-1, -1), wxBORDER_SUNKEN)
+      : wxPanel(parent, -1, wxPoint(-1, -1), wxSize(-1, -1), wxBORDER_SUNKEN)
 {
   count = 0;
   m_parent = parent;
