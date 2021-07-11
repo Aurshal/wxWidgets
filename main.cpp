@@ -1,11 +1,11 @@
 #include "main.h"
-#include "communicate.h"
+#include "Messages.h"
 
 IMPLEMENT_APP(MyApp)
 
-bool MyApp::OnInit(){
-    Communicate *communicate = new Communicate(wxT("Widgets communicate"));
-    communicate->Show(true);
+bool MyApp::OnInit() {
+    Messages* msgs = new Messages(wxT("Messages"));
+    msgs->Show(true);
 
     return true;
 }

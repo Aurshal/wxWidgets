@@ -1,10 +1,10 @@
 #include "communicate.h"
 
-Communicate::Communicate(const wxString& title):wxFrame(NULL, wxID_ANY, title, wxDefaultPosition, wxSize(500, 500))
+Communicate::Communicate(const wxString& title) :wxFrame(NULL, wxID_ANY, title, wxDefaultPosition, wxSize(500, 500))
 {
     m_parent = new wxPanel(this, wxID_ANY);
 
-    wxBoxSizer *hbox = new wxBoxSizer(wxHORIZONTAL);
+    wxBoxSizer* hbox = new wxBoxSizer(wxHORIZONTAL);
 
     m_lp = new LeftPanel(m_parent);
     m_rp = new RightPanel(m_parent);
